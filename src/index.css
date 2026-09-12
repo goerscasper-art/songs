@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  --color-win-bg: #d4d0c8;
+  --color-win-title: #000080;
+  --font-win: Tahoma, "Microsoft Sans Serif", sans-serif;
+}
+
+body {
+  background-color: #008080;
+  font-family: var(--font-win);
+  overflow: hidden;
+}
+
+.win-border {
+  border-top: 2px solid #ffffff;
+  border-left: 2px solid #ffffff;
+  border-bottom: 2px solid #404040;
+  border-right: 2px solid #404040;
+}
+
+.win-border-inset {
+  border-top: 2px solid #404040;
+  border-left: 2px solid #404040;
+  border-bottom: 2px solid #ffffff;
+  border-right: 2px solid #ffffff;
+}
+
+.win-button {
+  background-color: #d4d0c8;
+  border-top: 2px solid #ffffff;
+  border-left: 2px solid #ffffff;
+  border-bottom: 2px solid #404040;
+  border-right: 2px solid #404040;
+  padding: 4px 12px;
+  color: black;
+  font-size: 12px;
+  cursor: default;
+}
+
+.win-button:active:not(:disabled) {
+  border-top: 2px solid #404040;
+  border-left: 2px solid #404040;
+  border-bottom: 2px solid #ffffff;
+  border-right: 2px solid #ffffff;
+  padding: 5px 11px 3px 13px;
+}
+
+.win-button:disabled {
+  color: #808080;
+  text-shadow: 1px 1px 0px #ffffff;
+}

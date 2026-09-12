@@ -1,0 +1,6 @@
+{
+  "name": "Illegal Songs",
+  "description": "A Spotify clone with custom purple accents that plays songs from YouTube.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
